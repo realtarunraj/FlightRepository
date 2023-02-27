@@ -1,0 +1,23 @@
+.navbar-toggler {
+  background-image: url("../images/flightlogo.png") !important;
+  background-color: white !important;
+}
+
+.logonavbar {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 3rem !important;
+  }
+}

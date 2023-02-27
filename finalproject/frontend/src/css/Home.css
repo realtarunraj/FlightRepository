@@ -1,0 +1,58 @@
+.home-titles {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+}
+
+.homepage-image {
+  opacity: 0.5;
+  object-fit: contain;
+}
+
+.homepage-items {
+  position: relative;
+}
+
+.welcome-to {
+  color: black;
+  font-size: 30px;
+  object-fit: contain;
+}
+
+.jet-airways {
+  margin: 0 !important;
+  font-size: 60px;
+  color: rgb(128, 88, 88);
+  padding: 0;
+  object-fit: contain;
+}
+
+@media (max-width: 757px) {
+  .home-titles {
+    top: 35%;
+    left: 50%;
+  }
+
+  .welcome-to {
+    font-size: 20px;
+  }
+
+  .jet-airways {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 560px) {
+  .home-titles {
+    top: 30%;
+    left: 45%;
+  }
+
+  .welcome-to {
+    font-size: 15px;
+  }
+
+  .jet-airways {
+    font-size: 30px;
+  }
+}

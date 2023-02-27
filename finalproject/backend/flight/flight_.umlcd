@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_7iT20LWjEe2EdPagxNTsYw">
+  <modelElement href="flight.uml#_4tipILWjEe2EdPagxNTsYw"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_7uSdULWjEe2EdPagxNTsYw" name="com">
+    <modelElement href="flight.uml#_6tsjALWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_7uTEYLWjEe2EdPagxNTsYw" position="50.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_7vCrQLWjEe2EdPagxNTsYw" name="java">
+    <modelElement href="flight.uml#_6tvmULWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_7vCrQbWjEe2EdPagxNTsYw" position="-115.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_7vD5YLWjEe2EdPagxNTsYw" name="javax">
+    <modelElement href="flight.uml#_6twNYLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_7vD5YbWjEe2EdPagxNTsYw" position="200.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_7vFukLWjEe2EdPagxNTsYw" name="lombok">
+    <modelElement href="flight.uml#_6tw0dLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_7vFukbWjEe2EdPagxNTsYw" position="348.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_7vHjwLWjEe2EdPagxNTsYw" name="org">
+    <modelElement href="flight.uml#_6t6lcLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_7vHjwbWjEe2EdPagxNTsYw" position="-280.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

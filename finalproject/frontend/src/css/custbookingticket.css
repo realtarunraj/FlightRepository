@@ -1,0 +1,83 @@
+.container {
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: black 1px solid;
+}
+
+.book-button {
+  width: 100px !important;
+  align-items: center;
+  font-family: lato;
+  background-color: rgb(71, 159, 206);
+  border: rgb(99, 156, 237);
+}
+
+.book-button:hover {
+  color: white;
+  background-color: rgb(1, 118, 181);
+}
+
+.book-ticket-model {
+  width: auto;
+}
+
+.book-ticket-model:hover {
+  background-color: white;
+  color: blue;
+  border: blue 0.5px solid;
+}
+
+.cancel-button-model {
+  width: auto;
+}
+
+.cancel-button-model:hover {
+  background-color: white;
+  border: red 1px solid;
+  color: red;
+}
+
+.travel-date-level {
+  padding-right: 10px;
+}
+
+.modal-title {
+  color: rgb(58, 116, 226);
+  text-align: center;
+}
+
+.flightavailable {
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  justify-content: center;
+  margin-left: 30%;
+  width: 500px;
+  text-align: center;
+  margin-top: 20px;
+  background: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    blue,
+    orange,
+    red
+  );
+}
+
+@media (max-width: 990px) {
+  .flightavailable {
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 766px) {
+  .flightavailable {
+    margin-left: 15%;
+  }
+}

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_7jj0ALWjEe2EdPagxNTsYw">
+  <modelElement href="flight.uml#_6uSY4LWjEe2EdPagxNTsYw"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9svuELWjEe2EdPagxNTsYw" name="ActivityAlreadyExists">
+    <modelElement href="flight.uml#_6zwHsLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9svuEbWjEe2EdPagxNTsYw" position="50.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9svuErWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_6zwuwLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9svuE7WjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_6zxV0LWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9svuFLWjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9svuFbWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OXAELWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9svuFrWjEe2EdPagxNTsYw" label="~"/>
+      <cardinality xmi:id="_9svuF7WjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9svuGLWjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9sxjQLWjEe2EdPagxNTsYw" name="ActivityNotFoundException">
+    <modelElement href="flight.uml#_6zyj8LWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9sxjQbWjEe2EdPagxNTsYw" position="308.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9sxjQrWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_6zzLALWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9sxjQ7WjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_6zzyELWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9sxjRLWjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9sxjRbWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OXnILWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9sxjRrWjEe2EdPagxNTsYw" label="~"/>
+      <cardinality xmi:id="_9sxjR7WjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9sxjSLWjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9s0mkLWjEe2EdPagxNTsYw" name="AdminAlreadyExists">
+    <modelElement href="flight.uml#_6z1AMLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9s0mkbWjEe2EdPagxNTsYw" position="-205.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9s0mkrWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_6z1nQLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9s0mk7WjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_6z2OULWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9s0mlLWjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9s0mlbWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OXnIbWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9s0mlrWjEe2EdPagxNTsYw" label="~"/>
+      <cardinality xmi:id="_9s0ml7WjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9s0mmLWjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9s3C0LWjEe2EdPagxNTsYw" name="AdminNotFoundException">
+    <modelElement href="flight.uml#_6z3ccLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9s3C0bWjEe2EdPagxNTsYw" position="-522.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9s3C0rWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_6z4DgLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9s3C07WjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_6z4qkLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9s3C1LWjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9s3C1bWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OYOMLWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9s3C1rWjEe2EdPagxNTsYw" label="~"/>
+      <cardinality xmi:id="_9s3C17WjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9s3C2LWjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9s5fELWjEe2EdPagxNTsYw" name="CustomerAlreadyExists">
+    <modelElement href="flight.uml#_6z6fwLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9s5fEbWjEe2EdPagxNTsYw" position="609.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9s5fErWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_6z7G0LWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9s5fE7WjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_6z7t4LWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9s5fFLWjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9s5fFbWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OYOMbWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9s5fFrWjEe2EdPagxNTsYw" label="~"/>
+      <cardinality xmi:id="_9s5fF7WjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9s5fGLWjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9s77ULWjEe2EdPagxNTsYw" name="CustomerNotFoundException">
+    <modelElement href="flight.uml#_6z88ALWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9s77UbWjEe2EdPagxNTsYw" position="-843.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9s77UrWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_6z-KILWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9s77U7WjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_6z-xMLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9s77VLWjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9s77VbWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OY1QLWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9s77VrWjEe2EdPagxNTsYw" label="~"/>
+      <cardinality xmi:id="_9s77V7WjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9s77WLWjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9s-XkLWjEe2EdPagxNTsYw" name="InvalidPasswordException">
+    <modelElement href="flight.uml#_6z_YQLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9s-XkbWjEe2EdPagxNTsYw" position="887.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9s-XkrWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_60AmYLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9s-Xk7WjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_60BNcLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9s-XlLWjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9s-XlbWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OY1QbWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9s-XlrWjEe2EdPagxNTsYw" label="-"/>
+      <cardinality xmi:id="_9s-Xl7WjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9s-XmLWjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9tBa4LWjEe2EdPagxNTsYw" name="NoActivitiesFoundException">
+    <modelElement href="flight.uml#_60CbkLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9tBa4bWjEe2EdPagxNTsYw" position="1185.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9tBa4rWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_60DCoLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9tBa47WjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_60DpsLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9tBa5LWjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9tBa5bWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OZcULWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9tBa5rWjEe2EdPagxNTsYw" label="~"/>
+      <cardinality xmi:id="_9tBa57WjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9tBa6LWjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9tDQELWjEe2EdPagxNTsYw" name="NoAdminsFoundException">
+    <modelElement href="flight.uml#_60E30LWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9tD3ILWjEe2EdPagxNTsYw" position="-1161.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9tD3IbWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_60Fe4LWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9tD3IrWjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_60GF8LWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9tD3I7WjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9tD3JLWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OZcUbWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9tD3JbWjEe2EdPagxNTsYw" label="~"/>
+      <cardinality xmi:id="_9tD3JrWjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9tD3J7WjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9tFsULWjEe2EdPagxNTsYw" name="NoCustomersFoundException">
+    <modelElement href="flight.uml#_60HUELWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9tFsUbWjEe2EdPagxNTsYw" position="1510.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9tFsUrWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_60H7ILWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9tFsU7WjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_60IiMLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9tFsVLWjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9tFsVbWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OZcUrWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9tFsVrWjEe2EdPagxNTsYw" label="~"/>
+      <cardinality xmi:id="_9tFsV7WjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9tFsWLWjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9tIIkLWjEe2EdPagxNTsYw" name="NoTicketsFoundException">
+    <modelElement href="flight.uml#_60JwULWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9tIIkbWjEe2EdPagxNTsYw" position="-1467.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9tIIkrWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_60KXYLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9tIIk7WjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_60K-cLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9tIIlLWjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9tIIlbWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OaDYLWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9tIIlrWjEe2EdPagxNTsYw" label="~"/>
+      <cardinality xmi:id="_9tIIl7WjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9tIImLWjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9tLL4LWjEe2EdPagxNTsYw" name="TicketAlreadyExists">
+    <modelElement href="flight.uml#_60LlgLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9tLL4bWjEe2EdPagxNTsYw" position="1837.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9tLL4rWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_60MzoLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9tLL47WjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_60NasLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9tLL5LWjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9tLL5bWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OaDYbWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9tLL5rWjEe2EdPagxNTsYw" label="~"/>
+      <cardinality xmi:id="_9tLL57WjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9tLL6LWjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9tNBELWjEe2EdPagxNTsYw" name="TicketNotFoundException">
+    <modelElement href="flight.uml#_60Oo0LWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_9tNBEbWjEe2EdPagxNTsYw" position="-1774.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_9tNBErWjEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_60PP4LWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_9tNBE7WjEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_60P28LWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_9tNBFLWjEe2EdPagxNTsYw" label="+"/>
+    <attributes xmi:id="_9tNBFbWjEe2EdPagxNTsYw" name="msg">
+      <modelElement href="flight.uml#_7OaqcLWjEe2EdPagxNTsYw"/>
+      <visibility xmi:id="_9tNBFrWjEe2EdPagxNTsYw" label="~"/>
+      <cardinality xmi:id="_9tNBF7WjEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <type xmi:id="_9tNBGLWjEe2EdPagxNTsYw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

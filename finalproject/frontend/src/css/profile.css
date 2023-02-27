@@ -1,0 +1,65 @@
+ * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #fafafa;
+        margin: 0;
+      }
+      .container {
+        min-width:max-content ;
+        max-width: 60%;
+        margin: auto;
+        padding: 50px 20px;
+
+      }
+      .card {
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .card-header {
+        background-color: #f5f5f5;
+        padding: 20px;
+      }
+      .card-header h1 {
+        font-weight: 700;
+        font-size: 36px;
+        margin: 0;
+      }
+      .card-body {
+        padding: 30px;
+      }
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .table th,
+      .table td {
+        padding: 10px 20px;
+        text-align: left;
+        border-bottom: 1px solid #eeeeee;
+        font-weight: 500;
+        font-size: 16px;
+      }
+      .table th {
+        background-color: #f5f5f5;
+      }
+      .table td:last-child {
+        text-align: right;
+      }
+      .table td:last-child button {
+        background-color: #00bfa5;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .table td:last-child button:hover {
+        background-color: #008d72;
+      }

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_7kBHALWjEe2EdPagxNTsYw">
+  <modelElement href="flight.uml#_6vGRMLWjEe2EdPagxNTsYw"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ACuG8LWkEe2EdPagxNTsYw" name="CustomerRepository">
+    <modelElement href="flight.uml#_60RFELWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_ACuG8bWkEe2EdPagxNTsYw" position="50.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ACuG8rWkEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_60RsILWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ACuG87WkEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_60VWgLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_ACuG9LWkEe2EdPagxNTsYw" label="+"/>
+    <operations xmi:id="_ACuG9bWkEe2EdPagxNTsYw" name="existsByEmail">
+      <modelElement href="flight.uml#_60STMLWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_ACuG9rWkEe2EdPagxNTsYw" name="StyledElement">
+        <modelElement href="flight.uml#_60S6QrWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_ACuG97WkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_ACuG-LWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ACuG-bWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_60S6QbWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_ACuG-rWkEe2EdPagxNTsYw" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ACuG-7WkEe2EdPagxNTsYw" name="mobileNo">
+        <modelElement href="flight.uml#_60S6QLWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_ACuG_LWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_ACuG_bWkEe2EdPagxNTsYw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ACuG_rWkEe2EdPagxNTsYw" name="findByUserName">
+      <modelElement href="flight.uml#_60ThULWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_ACuG_7WkEe2EdPagxNTsYw" name="StyledElement">
+        <modelElement href="flight.uml#_60UIYLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_ACuHALWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_ACuHAbWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ACuHArWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7I4DIbWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_ACuHA7WkEe2EdPagxNTsYw" name="Customer">
+          <modelElement href="flight.uml#_63W1ULWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ACuHBLWkEe2EdPagxNTsYw" name="username">
+        <modelElement href="flight.uml#_60ThUbWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_ACuHBbWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_ACuHBrWkEe2EdPagxNTsYw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ACuHB7WkEe2EdPagxNTsYw" name="findByEmail">
+      <modelElement href="flight.uml#_60UIYbWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_ACuHCLWkEe2EdPagxNTsYw" name="StyledElement">
+        <modelElement href="flight.uml#_60UvcLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_ACuHCbWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_ACuHCrWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ACuHC7WkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7I4qMLWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_ACuHDLWkEe2EdPagxNTsYw" name="Customer">
+          <modelElement href="flight.uml#_63W1ULWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ACuHDbWkEe2EdPagxNTsYw" name="email">
+        <modelElement href="flight.uml#_60UIYrWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_ACuHDrWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_ACuHD7WkEe2EdPagxNTsYw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ACv8ILWkEe2EdPagxNTsYw" name="ActivityRepository">
+    <modelElement href="flight.uml#_60V9kLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_ACv8IbWkEe2EdPagxNTsYw" position="564.0,106.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ACv8IrWkEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_60WkoLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ACv8I7WkEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_60XLsLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_ACv8JLWkEe2EdPagxNTsYw" label="+"/>
+    <operations xmi:id="_ACv8JbWkEe2EdPagxNTsYw" name="findAllByCharges">
+      <modelElement href="flight.uml#_7NOXoLWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_ACv8JrWkEe2EdPagxNTsYw" name="StyledElement">
+        <modelElement href="flight.uml#_7NPlwLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_ACv8J7WkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_ACv8KLWkEe2EdPagxNTsYw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_ACv8KbWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7NO-sbWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_ACv8KrWkEe2EdPagxNTsYw" name="Activity">
+          <modelElement href="flight.uml#_60-2wLWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ACv8K7WkEe2EdPagxNTsYw" name="charges">
+        <modelElement href="flight.uml#_7NO-sLWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_ACv8LLWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_ACv8LbWkEe2EdPagxNTsYw" name="Double">
+          <modelElement href="flight.uml#_7Mpv4LWjEe2EdPagxNTsYw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ACxKQLWkEe2EdPagxNTsYw" name="AdminRepository">
+    <modelElement href="flight.uml#_61QjkLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_ACxKQbWkEe2EdPagxNTsYw" position="-768.0,-6.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ACxKQrWkEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_61RKoLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ACxKQ7WkEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_61VcELWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_ACxKRLWkEe2EdPagxNTsYw" label="+"/>
+    <operations xmi:id="_ACxKRbWkEe2EdPagxNTsYw" name="existsByEmail">
+      <modelElement href="flight.uml#_61RxsLWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_ACxKRrWkEe2EdPagxNTsYw" name="StyledElement">
+        <modelElement href="flight.uml#_61SYwLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_ACxKR7WkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_ACxKSLWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ACxKSbWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_61RxsrWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_ACxKSrWkEe2EdPagxNTsYw" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ACxKS7WkEe2EdPagxNTsYw" name="email">
+        <modelElement href="flight.uml#_61RxsbWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_ACxxULWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_ACxxUbWkEe2EdPagxNTsYw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ACxxUrWkEe2EdPagxNTsYw" name="getTicketsDateWise">
+      <modelElement href="flight.uml#_61SYwbWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_ACxxU7WkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_61S_0LWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_ACxxVLWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_ACxxVbWkEe2EdPagxNTsYw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_ACxxVrWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_61SYwrWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_ACxxV7WkEe2EdPagxNTsYw" name="Ticket">
+          <modelElement href="flight.uml#_60qtsLWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ACxxWLWkEe2EdPagxNTsYw" name="getTicketsCustomerWise">
+      <modelElement href="flight.uml#_61Tm4LWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_ACxxWbWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_61UN8bWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_ACxxWrWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_ACxxW7WkEe2EdPagxNTsYw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_ACxxXLWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_61Tm4bWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_ACxxXbWkEe2EdPagxNTsYw" name="Ticket">
+          <modelElement href="flight.uml#_60qtsLWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ACxxXrWkEe2EdPagxNTsYw" name="findByEmail">
+      <modelElement href="flight.uml#_61U1AbWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_ACxxX7WkEe2EdPagxNTsYw" name="StyledElement">
+        <modelElement href="flight.uml#_61U1A7WjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_ACxxYLWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_ACxxYbWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ACxxYrWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7JyCELWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_ACxxY7WkEe2EdPagxNTsYw" name="Admin">
+          <modelElement href="flight.uml#_60XywLWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ACxxZLWkEe2EdPagxNTsYw" name="email">
+        <modelElement href="flight.uml#_61U1ArWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_ACxxZbWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_ACxxZrWkEe2EdPagxNTsYw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ACxxZ7WkEe2EdPagxNTsYw" name="getTicketsBetweenDays">
+      <modelElement href="flight.uml#_7NbzALWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_ACxxaLWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_7NdoNrWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_ACxxabWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_ACxxarWkEe2EdPagxNTsYw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_ACxxa7WkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7NcaEbWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_ACxxbLWkEe2EdPagxNTsYw" name="Ticket">
+          <modelElement href="flight.uml#_60qtsLWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ACxxbbWkEe2EdPagxNTsYw" name="id">
+        <modelElement href="flight.uml#_7NbzAbWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_ACxxbrWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_ACxxb7WkEe2EdPagxNTsYw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ACxxcLWkEe2EdPagxNTsYw" name="start">
+        <modelElement href="flight.uml#_7NbzArWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_ACxxcbWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_ACxxcrWkEe2EdPagxNTsYw" name="LocalDate">
+          <modelElement href="flight.uml#_7HBB8LWjEe2EdPagxNTsYw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ACxxc7WkEe2EdPagxNTsYw" name="end">
+        <modelElement href="flight.uml#_7NcaELWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_ACxxdLWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_ACxxdbWkEe2EdPagxNTsYw" name="LocalDate">
+          <modelElement href="flight.uml#_7HBB8LWjEe2EdPagxNTsYw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AC0NkLWkEe2EdPagxNTsYw" name="TicketBookingRepository">
+    <modelElement href="flight.uml#_61YfYLWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_AC0NkbWkEe2EdPagxNTsYw" position="1071.0,78.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AC0NkrWkEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_61ZGcLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AC0Nk7WkEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_61cJwLWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_AC0NlLWkEe2EdPagxNTsYw" label="+"/>
+    <operations xmi:id="_AC0NlbWkEe2EdPagxNTsYw" name="getTicketsOfCustomer">
+      <modelElement href="flight.uml#_61ZtgLWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AC0NlrWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_61a7o7WjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AC00oLWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AC00obWkEe2EdPagxNTsYw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AC00orWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_61ZtgrWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AC00o7WkEe2EdPagxNTsYw" name="Ticket">
+          <modelElement href="flight.uml#_60qtsLWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AC00pLWkEe2EdPagxNTsYw" name="customerId">
+        <modelElement href="flight.uml#_61ZtgbWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_AC00pbWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_AC00prWkEe2EdPagxNTsYw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AC00p7WkEe2EdPagxNTsYw" name="getTicketsOfDates">
+      <modelElement href="flight.uml#_7Nk88LWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AC00qLWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_7NnZM7WjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AC00qbWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AC00qrWkEe2EdPagxNTsYw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AC00q7WkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7NlkA7WjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AC00rLWkEe2EdPagxNTsYw" name="Ticket">
+          <modelElement href="flight.uml#_60qtsLWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AC00rbWkEe2EdPagxNTsYw" name="activityId">
+        <modelElement href="flight.uml#_7NlkALWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_AC00rrWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_AC00r7WkEe2EdPagxNTsYw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AC00sLWkEe2EdPagxNTsYw" name="start">
+        <modelElement href="flight.uml#_7NlkAbWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_AC00sbWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_AC00srWkEe2EdPagxNTsYw" name="LocalDate">
+          <modelElement href="flight.uml#_7HBB8LWjEe2EdPagxNTsYw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AC00s7WkEe2EdPagxNTsYw" name="end">
+        <modelElement href="flight.uml#_7NlkArWjEe2EdPagxNTsYw"/>
+        <cardinality xmi:id="_AC00tLWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+        <type xmi:id="_AC00tbWkEe2EdPagxNTsYw" name="LocalDate">
+          <modelElement href="flight.uml#_7HBB8LWjEe2EdPagxNTsYw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

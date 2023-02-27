@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_7kJp4LWjEe2EdPagxNTsYw">
+  <modelElement href="flight.uml#_6vaaQLWjEe2EdPagxNTsYw"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AUxgQLWkEe2EdPagxNTsYw" name="RestfulExceptionHandler">
+    <modelElement href="flight.uml#_61emALWjEe2EdPagxNTsYw"/>
+    <visualProperties xmi:id="_AUxgQbWkEe2EdPagxNTsYw" position="50.0,50.0"/>
+    <stereotypes xmi:id="_AUxgQrWkEe2EdPagxNTsYw" name="LegacyStyledElement">
+      <modelElement href="flight.uml#_61f0ILWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AUxgQ7WkEe2EdPagxNTsYw" name="Annotations">
+      <modelElement href="flight.uml#_63TyALWjEe2EdPagxNTsYw"/>
+    </stereotypes>
+    <visibility xmi:id="_AUxgRLWkEe2EdPagxNTsYw" label="+"/>
+    <operations xmi:id="_AUxgRbWkEe2EdPagxNTsYw" name="ActivityNotFoundException">
+      <modelElement href="flight.uml#_61f0IbWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxgRrWkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_61plILWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxgR7WkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_61qMMLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxgSLWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxgSbWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxgSrWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7NoAQLWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgS7WkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AUxgTLWkEe2EdPagxNTsYw" name="NoActivitiesFoundException">
+      <modelElement href="flight.uml#_61qMM7WjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxgTbWkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_61yIALWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxgTrWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_61zWILWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxgT7WkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxgULWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxgUbWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7NonULWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgUrWkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AUxgU7WkEe2EdPagxNTsYw" name="ActivityAlreadyExists">
+      <modelElement href="flight.uml#_61z9MrWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxgVLWkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_61-8ULWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxgVbWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_61_jYLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxgVrWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxgV7WkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxgWLWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7NonUbWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgWbWkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AUxgWrWkEe2EdPagxNTsYw" name="AdminNotFoundException">
+      <modelElement href="flight.uml#_62AKcbWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxgW7WkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_62IGQLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxgXLWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_62ItULWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxgXbWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxgXrWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxgX7WkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7NonUrWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgYLWkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AUxgYbWkEe2EdPagxNTsYw" name="NoAdminsFoundException">
+      <modelElement href="flight.uml#_62JUYrWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxgYrWkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_62QCELWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxgY7WkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_62QpILWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxgZLWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxgZbWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxgZrWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7NonU7WjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgZ7WkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AUxgaLWkEe2EdPagxNTsYw" name="AdminAlreadyExists">
+      <modelElement href="flight.uml#_62QpI7WjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxgabWkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_62Yk8LWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxgarWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_62ZMALWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxga7WkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxgbLWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxgbbWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7NpOYLWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgbrWkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AUxgb7WkEe2EdPagxNTsYw" name="CustomerNotFoundException">
+      <modelElement href="flight.uml#_62ZMA7WjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxgcLWkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_62hu4LWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxgcbWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_62hu4bWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxgcrWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxgc7WkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxgdLWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7NpOYbWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgdbWkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AUxgdrWkEe2EdPagxNTsYw" name="NoCustomersFoundException">
+      <modelElement href="flight.uml#_62iV8LWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxgd7WkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_62ockLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxgeLWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_62ockbWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxgebWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxgerWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxge7WkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7NpOYrWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgfLWkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AUxgfbWkEe2EdPagxNTsYw" name="CustomerAlreadyExists">
+      <modelElement href="flight.uml#_62pDoLWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxgfrWkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_62ujMLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxgf7WkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_62vKQLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxggLWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxggbWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxggrWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7Np1cLWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgg7WkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AUxghLWkEe2EdPagxNTsYw" name="TicketNotFoundException">
+      <modelElement href="flight.uml#_62vxULWjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxghbWkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_621Q4LWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxghrWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_62138LWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxgh7WkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxgiLWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxgibWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7Np1cbWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgirWkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AUxgi7WkEe2EdPagxNTsYw" name="NoTicketsFoundException">
+      <modelElement href="flight.uml#_621387WjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxgjLWkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_629MsLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxgjbWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_629zwLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxgjrWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxgj7WkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxgkLWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7Np1crWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgkbWkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AUxgkrWkEe2EdPagxNTsYw" name="TicketAlreadyExists">
+      <modelElement href="flight.uml#_629zw7WjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxgk7WkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_63G9sLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxglLWkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_63HkwLWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxglbWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxglrWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxgl7WkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7Np1c7WjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgmLWkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AUxgmbWkEe2EdPagxNTsYw" name="InvalidPasswordException">
+      <modelElement href="flight.uml#_63Hkw7WjEe2EdPagxNTsYw"/>
+      <stereotypes xmi:id="_AUxgmrWkEe2EdPagxNTsYw" name="Generics">
+        <modelElement href="flight.uml#_63Sj4LWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUxgm7WkEe2EdPagxNTsYw" name="Annotations">
+        <modelElement href="flight.uml#_63TK8LWjEe2EdPagxNTsYw"/>
+      </stereotypes>
+      <visibility xmi:id="_AUxgnLWkEe2EdPagxNTsYw" label="+"/>
+      <cardinality xmi:id="_AUxgnbWkEe2EdPagxNTsYw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUxgnrWkEe2EdPagxNTsYw">
+        <modelElement href="flight.uml#_7NqcgLWjEe2EdPagxNTsYw"/>
+        <type xmi:id="_AUxgn7WkEe2EdPagxNTsYw" name="ResponseEntity">
+          <modelElement href="flight.uml#_7J594bWjEe2EdPagxNTsYw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
